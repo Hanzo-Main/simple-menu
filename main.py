@@ -6,11 +6,13 @@
 # Description: simple menu for RPG, accepts, confirms valid/invalid imputs.
 # only accepts all lower case or all capital words. Single words only.
 
-# function with a while loop that has if-elif-else statements 
-# inside for each option. 
+# function with a while loop that has if-elif-else statements
+# inside for each option.
+
+
 def continuous(ans):
-  while ans:
-      print("""
+    while ans:
+        print("""
         Go in one of the following directions:
         -> Left
         -> Right
@@ -19,20 +21,20 @@ def continuous(ans):
         -> Attack
         -> Heal
         """)
-      ans = input("What would you like to do? ")
-      if ans == "quit".lower() or ans == "quit".upper():
-        break
-      if ans == "Left".lower() or ans == "left".upper():
-          print("You go left.")
-      elif ans == "right".lower() or ans == "right".upper():
-          print("You go right.")
-      elif ans == "Explore".lower() or ans == "Explore".upper():
-          print("You look around.")
-      elif ans == "attack".lower() or ans == "attack".upper():
-          print("You attack.")
-      elif ans == "heal".lower() or ans == "heal".upper():
-          print("You heal 20 points.")
-      else:
-          print("Invalid imput!")
+        ans = input("What would you like to do? ")
+        if ans == "quit".lower() or ans == "quit".upper():
+            break
+        if ans == "Left".lower() or ans == "left".upper():
+            print("You go left.")
+        elif ans == "right".lower() or ans == "right".upper():
+            print("You go right.")
+        elif ans == "Explore".lower() or ans == "Explore".upper():
+            print("You look around.")
+        elif ans == "attack".lower() or ans == "attack".upper():
+            print("You attack.")
+        elif ans == "heal".lower() or ans == "heal".upper():
+            print("You heal 20 points.")
+        else:
+            print("Invalid imput!")
 
-continuous(ans = True)
+continuous(ans=True)
