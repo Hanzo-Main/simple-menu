@@ -3,8 +3,9 @@
 # Date created: 21/02/04
 # Date last modified: 21/02/12
 # Name: Kira Gray
-# Description: simple menu for RPG, accepts, confirms valid/invalid imputs.
-# only accepts all lower case or all capital words. Single words only.
+# Description: continuous simple menu for RPG, accepts, confirms
+# valid/invalid imputs. Only accepts all lower case or all
+# capital words. Single words only.
 
 # function with a while loop that has if-elif-else statements
 # inside for each option.
