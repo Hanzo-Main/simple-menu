@@ -21,6 +21,7 @@ def continuous(ans):
         -> Explore
         -> Attack
         -> Heal
+        -> Quit
         """)
         ans = input("What would you like to do? ")
         if ans == "quit".lower() or ans == "quit".upper():
